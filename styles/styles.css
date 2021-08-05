@@ -1,1 +1,24 @@
 @import url(../fonts/fonts.css);
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+body {
+    font-family: Montserrat;
+
+}
+header {
+	width: 100%;
+	display: flex;
+}
+header__logo {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 56px;
+	margin-left: 12%;
+}
